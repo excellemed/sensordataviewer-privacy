@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>传感器数据查看器 · 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.75; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: .3rem; }
+  .meta { color: #888; font-size: .9rem; }
+  code { background: #8882; padding: 0 .25rem; border-radius: 3px; }
+  footer { margin-top: 3rem; color: #888; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>传感器数据查看器 · 隐私政策</h1>
+<p class="meta">适用范围：iOS 应用「传感器数据查看器」（Bundle ID：<code>com.jlbiosensor.sensordataviewer</code>）<br>
+更新日期：2026-11-10</p>
+
+<p>本应用是蓝牙传感器（血糖 / 乳酸 / 尿酸 / 体温发射器）的现场排障工具，<strong>完全离线运行、不联网、不收集、不上传任何个人信息</strong>。本政策说明本应用如何处理数据。</p>
+
+<h2>一、我们收集的信息</h2>
+<p>本应用<strong>不收集、不上传任何个人信息</strong>。</p>
+<ul>
+  <li>无账号体系，不需要注册或登录；</li>
+  <li>无网络访问能力，应用不会向任何服务器发送数据；</li>
+  <li>无数据分析、广告、推送或崩溃上报等第三方 SDK。</li>
+</ul>
+
+<h2>二、蓝牙的使用</h2>
+<p>本应用使用蓝牙（Bluetooth LE）完成唯一的核心功能：扫描附近的传感器发射器，读取发射器内记录的历史数据，并在本机展示与导出。</p>
+<ul>
+  <li>蓝牙仅用于手机与发射器之间的本地通信；</li>
+  <li>扫描到的广播信息（设备标识、15 位成品序列号、产品系列、协议版本）只用于识别与连接设备；</li>
+  <li>蓝牙通信内容不会离开本机。</li>
+</ul>
+
+<h2>三、数据在本机的存储</h2>
+<ul>
+  <li>设备记录与采集样本保存在应用沙盒内，仅在设备本地；</li>
+  <li>导出的 CSV 文件由使用者主动触发，通过系统分享面板交给使用者选择的目标应用或位置；本应用不自行上传；</li>
+  <li>使用者可以在应用内删除设备（连同其全部样本），或通过卸载应用清除全部本地数据。</li>
+</ul>
+
+<h2>四、数据共享与出售</h2>
+<p>本应用不与任何第三方共享、转让或出售任何数据。应用内不存在账号、云同步或远程服务。</p>
+
+<h2>五、数据保留与删除</h2>
+<ul>
+  <li>本地数据保留至使用者主动删除或卸载应用；</li>
+  <li>应用内删除设备会同时删除该设备的全部历史样本，删除后不可恢复；</li>
+  <li>因数据仅存于本机，开发者无法访问、也无法代为删除使用者设备上的数据。</li>
+</ul>
+
+<h2>六、儿童隐私</h2>
+<p>本应用面向现场技术人员使用，不针对儿童，不收集任何个人信息。</p>
+
+<h2>七、政策变更</h2>
+<p>若本政策发生变更，我们会在应用更新说明与本页面上公布更新后的政策与更新日期。</p>
+
+<h2>八、联系我们</h2>
+<ul>
+  <li>公司：JL Biosensor Technology Ltd.</li>
+  <li>邮箱：<code>informg@excellemed.com</code></li>
+</ul>
+
+<footer>本页面可托管在任意免费静态托管（如 GitHub Pages），供 App Store Connect 的「隐私政策 URL」使用；应用内所展示的隐私政策与本文一致，且离线可读。</footer>
+</body>
+</html>
